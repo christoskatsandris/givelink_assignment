@@ -6,7 +6,7 @@ export default async function Home() {
     const productCards = products.map((product) => <ProductCard product={product}/>);
 
     return (
-        <main>
+        <main className="flex flex-wrap">
             {productCards}
         </main>
     );
