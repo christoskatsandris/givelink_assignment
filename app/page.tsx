@@ -6,8 +6,14 @@ export default async function Home() {
     const productCards = products.map((product) => <ProductCard product={product} key={product.id}/>);
 
     return (
-        <main className="flex flex-wrap">
-            {productCards}
+        <main>
+            <div className="pageTitle">
+                Διαθέσιμα προϊόντα
+            </div>
+
+            <div className="productList">
+                {productCards}
+            </div>
         </main>
     );
 }
