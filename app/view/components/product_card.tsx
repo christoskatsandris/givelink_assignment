@@ -6,6 +6,8 @@ const formatter = new Intl.NumberFormat('el-GR', {
 });
 
 export default function ProductCard({product}: { product: Product }) {
+    // Inspired by: https://dribbble.com/shots/20041878-Product-card-UI
+
     return (
         <div className="productCard">
             <div className="productImage">

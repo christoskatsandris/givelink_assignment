@@ -40,7 +40,7 @@ body {
   border-radius: 15px;
   display: flex;
   
-  /* Glassmorphism */
+  /* Glassmorphism. Source: https://ui.glass/generator/ */
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(255, 255, 255, 0.75);
