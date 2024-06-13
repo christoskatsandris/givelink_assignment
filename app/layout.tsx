@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Givelink Client",
+  title: "Givelink Assignment",
   description: "A webpage that shows Givelink products",
 };
 
