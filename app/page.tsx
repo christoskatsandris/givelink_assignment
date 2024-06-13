@@ -3,7 +3,7 @@ import ProductCard from "./view/components/product_card";
 
 export default async function Home() {
     const products = await controller.getProductsActive();
-    const productCards = products.map((product) => <ProductCard product={product}/>);
+    const productCards = products.map((product) => <ProductCard product={product} key={product.id}/>);
 
     return (
         <main className="flex flex-wrap">
